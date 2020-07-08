@@ -1,236 +1,91 @@
-/**************** By : ANIL BHUSAL *****************/
 
 
+/************************** ASSINGMENT BY : ANIL BHUSAL *************/;
 
 * {
-	box-sizing: border-box;
-	margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Comic Sans MS", Arial, serif;
+}
+h1{
+  text-align : center;
+  font-size: 175%;
+  margin-bottom: 20px;
+}
+.row {
+  width: 100%;
+}
+.content{
+  border: 2px solid black;
+  margin: 2% auto;
+  width: 90%;
+  height: 300px;
+  position: relative;
+  top: 25px;
+  overflow: hidden;
 }
 
-h2 {
-	font-family: helvetica;
-	text-align: center;
-	margin: 20px;
-
+#color1 {
+  background-color: #B1B9FA;
 }
 
-
-	
-
-}
- .row {
- 	width: 100%;
- 	margin: 0px;
- 	box-sizing: border-box;
- 
- }
-
- #subTitle1 {
- 	border: 1.5px solid black;
- 	border-radius: 3px;
- 	background-color: pink;
- 	font-family: hevetica;
- 	float: right;
- 	margin: 1.5px;
- 	clear: right;
- 	text-align: center;
- 	height: 22px;
- 	width: 80px;
-
- }
-
- #subTitle2 {
- 	border: 1.5px solid black;
- 	border-radius: 3px;
- 	background-color: rgb(240,107,81);
- 	font-family: hevetica;
- 	float: right;
- 	margin: 1.5px;
- 	clear: right;
- 	text-align: center;
- 	height: 22px;
- 	width: 80px;
- 	color: white;
-
- }
-
- #subTitle3 {
- 	border: 1.5px solid black;
- 	border-radius: 3px;
- 	background-color: yellow;
- 	font-family: hevetica;
- 	float: right;
- 	margin: 1.5px;
- 	clear: right;
- 	text-align: center;
- 	height: 22px;
- 	width: 80px;
- 	color: black;
-
- }
-
- section {
- 	clear: both;
- 	padding: 5px;
- 	margin-left: 10px;
-
- }
-
- .color1 {
- 	background-color: rgb(241, 218, 191);
- }
-
- .color2 {
- 	background-color: #89BFFA;
- }
-
-.color3 {
-	background-color: #93FF9F;
+#color2 {
+  background-color: #B596E3;
 }
 
- 
+#color3 {
+  background-color: #96C4E3;
+}
 
-  @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+.content > h2{
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  font-size: 125%;
+  width: 40%;
+  margin:auto;
+  padding: 0.5%;
+  float:right;
+}
+.content > p {
+  font-size: 100%;
+  margin: 4%;
+  width: 90%;
+  clear: both;
+  padding: 3px;
+  overflow: hidden;
+}
+
+#first{
+  background-color: pink;
+}
+#second{
+  background-color: maroon;
+  color: white;
+}
+#third{
+  background-color: yellow;
+}
+
+@media (min-width: 992px) {
+  .section {
     float: left;
-    border: 1.5px solid black;
-    margin: auto;
-    
-
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
     width: 33.33%;
   }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-
 }
 
-/********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .section {
     float: left;
-    border: 1.5px solid black;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    
-
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
     width: 50%;
   }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-
-/********For Mobile Devices ****************/
-@media (max-width: 767px) {
-  .col-small-1, .col-small-2, .col-small-3, .col-small-4, .col-small-5, .col-small-6, .col-small-7, .col-small-8, .col-small-9, .col-small-10, .col-small-11, .col-small-12 {
+  #last {
     float: left;
-    border: 1.5px solid black;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .col-small-1 {
-    width: 8.33%;
-  }
-  .col-small-2 {
-    width: 16.66%;
-  }
-  .col-small-3 {
-    width: 25%;
-  }
-  .col-small-4 {
-    width: 33.33%;
-  }
-  .col-small-5 {
-    width: 41.66%;
-  }
-  .col-small-6 {
-    width: 50%;
-  }
-  .col-small-7 {
-    width: 58.33%;
-  }
-  .col-small-8 {
-    width: 66.66%;
-  }
-  .col-small-9 {
-    width: 74.99%;
-  }
-  .col-small-10 {
-    width: 83.33%;
-  }
-  .col-small-11 {
-    width: 91.66%;
-  }
-  .col-small-12 {
     width: 100%;
   }
+  #last > .content {
+    width: 95%;
+  }
 }
-
